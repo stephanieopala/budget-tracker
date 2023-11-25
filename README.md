@@ -1,8 +1,24 @@
-# React + Vite
+# Budget Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web application that allows a user to track their income and expenses. A user can perform the following;
+- Add a transaction (either income or expense).
+- See the list of transactions.
+- Delete a transaction.
+- See the balance.
 
-Currently, two official plugins are available:
+This is the [link](https://budget-tracker-red.vercel.app/) to the live site.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tools & Technologies used
+- React + Vite
+- Redux Toolkit for state management
+- Local storage
+- CSS modules for styling
+
+### Running the project locally
+- Clone the repository.
+- Run the following commands in your terminal.
+```bash
+npm install
+npm run dev
+```
+
