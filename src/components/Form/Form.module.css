@@ -1,7 +1,6 @@
 form {
-  width: 600px;
+  width: 100%;
   align-items: center;
-  /* gap: 0 12px; */
 }
 .formcontrol {
   margin: 10px 0;
