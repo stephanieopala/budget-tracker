@@ -1,0 +1,51 @@
+form {
+  width: 600px;
+  align-items: center;
+  /* gap: 0 12px; */
+}
+.formcontrol {
+  margin: 10px 0;
+  display: flex;
+}
+.formcontrol label {
+  width: 100px;
+  display: inline-block;
+  text-align: left;
+  /* font-weight: 700; */
+}
+.formcontrol input,
+.formcontrol select {
+  width: 100%;
+  padding: 8px;
+  font-size: inherit;
+  font-family: inherit;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+.submitBtn {
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #646cff;
+  color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  border-radius: 2px;
+}
+.submitBtn:hover {
+  border-color: #646cff;
+  color: #646cff;
+  background-color: white;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}

@@ -1,0 +1,15 @@
+.container, table {
+  width: 100%;
+}
+
+.title {
+  font-weight: 600;
+  /* color: #646cff; */
+}
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+.empty {
+  color: gray;
+}

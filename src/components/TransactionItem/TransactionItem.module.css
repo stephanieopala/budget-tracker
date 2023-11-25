@@ -1,0 +1,25 @@
+.listItem {
+  color: black;
+}
+.deleteBtn {
+  color: white;
+  background-color: #646cff;
+  border: 1px solid transparent;
+  padding: 6px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.deleteBtn:hover {
+  border-color: #646cff;
+  color: #646cff;
+  background-color: white;
+}
+/* span {
+  text-align: right;
+}
+.listitem div {
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+  justify-content: space-between;
+} */

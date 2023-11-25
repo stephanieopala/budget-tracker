@@ -1,3 +1,14 @@
 .container {
   width: 100%;
 }
+.appTitle {
+  font-family: inherit;
+}
+.top {
+  width: 100%;
+  gap: 18px
+}
+.balanceTitle {
+  font-weight: 600;
+  font-family: inherit;
+}
